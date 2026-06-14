@@ -8,7 +8,7 @@ I am looking to build a modern browser-based gaming website where users can disc
 
 The platform should provide a smooth and engaging experience for casual gamers through a visually appealing interface, intuitive navigation, and fast access to gameplay. The website should focus on helping users quickly find games they enjoy through category-based browsing, featured collections, trending titles, and search functionality.
 
-The goal is to create a lightweight but professional gaming website that feels polished and enjoyable to use while remaining manageable in scope for an initial launch. The platform will host approximately 50–100 browser games across multiple categories and should be designed to support future expansion as additional games are added.
+The goal is to create a lightweight but professional gaming website that feels polished and enjoyable to use while remaining manageable in scope for an initial launch. The platform will host approximately 50-100 browser games across multiple categories and should be designed to support future expansion as additional games are added.
 
 The website should include dedicated game pages, embedded game players, category navigation, favorites functionality, recently played games, and a simple administration panel for managing content. Features such as favorites and recently played games may be stored locally in the user's browser to keep the platform lightweight while still providing a personalized experience.
 

@@ -10,7 +10,7 @@ R07 | The homepage displays a 'Continue Playing' section showing the last 3-4 ga
 R08 | The homepage displays exactly 6 category tiles covering : Action, Adventure, Racing, Puzzle, Sports, Arcade. 
 R09 | Category filter tabs on games.html update the visible game grid without a page reload.
 R10 | The search input on games.html filters the game grid in real time as the user types, without a page reload.
-R11 | Sort controls 'Trending', 'Newest', and 'A–Z' are present on games.html that reorders the grid correctly.
+R11 | Sort controls 'Trending', 'Newest', and 'A-Z' are present on games.html that reorders the grid correctly.
 R12 | The game grid on games.html reflows from 4 columns on desktop to 2 columns on tablet to 1 column on mobile. 
 R13 | The category page reads the 'cat' URL parameter that shows only matching games. 
 R14 | An empty-state message appears when no games match the active search or filter on games.html or category.html. 

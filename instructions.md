@@ -1,10 +1,10 @@
-# Build a Browser-Based Gaming Website — Playora
+# Build a Browser-Based Gaming Website - Playora
 
 # Context
 
 Build a modern browser-based gaming website called **Playora** that lets visitors instantly discover and play a curated collection of HTML5 games directly from their web browser.
 
-The goal is to create a polished, fast, and visually engaging gaming hub where casual gamers can find and play games within two clicks of landing — no downloads, no sign-ups, no friction.
+The goal is to create a polished, fast, and visually engaging gaming hub where casual gamers can find and play games within two clicks of landing - no downloads, no sign-ups, no friction.
 
 The website should prioritize:
 
@@ -31,12 +31,12 @@ Only commercially usable assets may be used in the build.
 Build a browser-based gaming website branded as:
 
 ```text
-Playora — Discover. Play. Repeat.
+Playora - Discover. Play. Repeat.
 ```
 
 The site must:
 
-1. Display a curated catalog of 50–100 HTML5 games across 6 categories.
+1. Display a curated catalog of 50-100 HTML5 games across 6 categories.
 2. Let any visitor click a game and play it instantly inside the browser.
 3. Sort and filter games by category and search by title without page reloads.
 4. Persist recently played and favorite games using browser local storage.
@@ -58,14 +58,14 @@ Build exactly:
 
 The site must follow this structure:
 
-## Page 1 — Home Page (`index.html`)
+## Page 1 - Home Page (`index.html`)
 
 Include:
 
 Title:
 
 ```text
-Playora — Discover. Play. Repeat.
+Playora - Discover. Play. Repeat.
 ```
 
 Requirements:
@@ -86,18 +86,18 @@ Avoid:
 
 ---
 
-## Page 2 — Browse All Games (`games.html`)
+## Page 2 - Browse All Games (`games.html`)
 
 Show:
 
 - full game catalog in a responsive grid
 - category filter tabs and search input that filter the grid in real time
-- sort options: Trending, Newest, A–Z
+- sort options: Trending, Newest, A-Z
 - breadcrumb showing `Home > All Games`
 
 Requirements:
 
-- client-side filtering only — no page reloads
+- client-side filtering only - no page reloads
 - grid that reflows from 4 columns on desktop to 2 columns on tablet to 1 column on mobile
 - empty-state message if no games match the search or filter
 - no server-side filtering
@@ -109,7 +109,7 @@ Do NOT include:
 
 ---
 
-## Page 3 — Category Page (`category.html?cat=puzzle`)
+## Page 3 - Category Page (`category.html?cat=puzzle`)
 
 Show:
 
@@ -131,7 +131,7 @@ Do NOT include:
 
 ---
 
-## Page 4 — Game Detail Page (`game.html?slug=space-shooter`)
+## Page 4 - Game Detail Page (`game.html?slug=space-shooter`)
 
 Include the actual playable game.
 
@@ -154,7 +154,7 @@ Requirements:
 
 ---
 
-## Page 5 — Recently Played (`recently-played.html`)
+## Page 5 - Recently Played (`recently-played.html`)
 
 Show:
 
@@ -165,7 +165,7 @@ Show:
 
 ---
 
-## Page 6 — Favorites (`favorites.html`)
+## Page 6 - Favorites (`favorites.html`)
 
 Show:
 
@@ -201,7 +201,7 @@ Requirements:
 
 - username and password authentication
 - session timeout after inactivity
-- no public registration — credentials configured during setup
+- no public registration - credentials configured during setup
 - admin routes blocked from public indexing via `robots.txt`
 
 ## Admin Features
@@ -476,7 +476,7 @@ Requirements:
 ## Continue Playing
 
 - subset of recently played shown on the homepage
-- highlights the last 3–4 games the user interacted with
+- highlights the last 3-4 games the user interacted with
 
 ---
 
@@ -596,7 +596,7 @@ Quantity:
 1
 ```
 
-Delivered securely — never committed to the repository.
+Delivered securely - never committed to the repository.
 
 ---
 

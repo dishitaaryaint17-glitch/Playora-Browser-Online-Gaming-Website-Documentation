@@ -1,0 +1,42 @@
+PLAYORA - EVALUATION RUBRICS 
+
+R01 | The top navigation bar contains: a logo, exactly 6 category links, a search bar on every page. 
+R02 | The header height measures: 72 px on desktop viewports, 60 px on mobile viewports.
+R03 | The footer on every page contains links to About, Contact, Privacy, and Terms. 
+R04 | No horizontal scrollbar appears on any page at any viewport width from 320 px upward.
+R05 | The homepage hero section displays the tagline 'Discover. Play. Repeat.' and a 'Play Now' CTA button, with no pop-ups or auto-playing media on load.
+R06 | The homepage displays three distinct game rows labelled exactly 'Featured Games', 'Trending Games', and 'New Arrivals'. 
+R07 | The homepage displays a 'Continue Playing' section showing the last 3-4 games stored in localStorage. 
+R08 | The homepage displays exactly 6 category tiles covering : Action, Adventure, Racing, Puzzle, Sports, Arcade. 
+R09 | Category filter tabs on games.html update the visible game grid without a page reload.
+R10 | The search input on games.html filters the game grid in real time as the user types, without a page reload.
+R11 | Sort controls 'Trending', 'Newest', and 'A–Z' are present on games.html that reorders the grid correctly.
+R12 | The game grid on games.html reflows from 4 columns on desktop to 2 columns on tablet to 1 column on mobile. 
+R13 | The category page reads the 'cat' URL parameter that shows only matching games. 
+R14 | An empty-state message appears when no games match the active search or filter on games.html or category.html. 
+R15 | Every game card displays a 320x180 px thumbnail, a title truncated at 28 characters, one category badge, with a heart icon. 
+R16 | Clicking a game card navigates to game.html with the correct slug parameter for that game. 
+R17 | The game detail page places one AdSense banner above a 16:9 iframe and the iframe loads within 3 seconds on simulated 4G. 
+R18 | A fullscreen toggle button on the iframe functions correctly on iOS Safari, Chrome Android, and desktop browsers. 
+R19 | The game detail page shows: the game title, a description under 60 words, a one-line controls hint below the iframe. 
+R20 | The 'More Like This' strip on the game detail page displays exactly 4 related game cards. 
+R21 | Loading the game detail page adds that game to the localStorage recently-played list, capped at 20 entries which persists across browser sessions. 
+R22 | The recently-played.html page renders the localStorage list, shows an empty-state illustration with a CTA when empty, with a 'Clear All' button. 
+R23 | Tapping the heart icon on any game card or detail page adds or removes that game from the localStorage favorites list. 
+R24 | The favorites.html page allows removing one game individually and provides a 'Clear All' option, with an empty-state illustration when the list is empty. 
+R25 | The About, Contact, Privacy, and Terms pages each render in a single column at max-width 720 px with the same header and footer as the rest of the site. 
+R26 | The Contact page uses a mailto: link only with no form element, and the Privacy page explicitly names Google Analytics 4 that discloses its cookie usage. 
+R27 | The /admin route blocks unauthenticated access, requires username and password login, and the session expires after inactivity. 
+R28 | The admin dashboard lists all games in a paginated table with title, category, and status columns. 
+R29 | The admin add-game and edit-game forms accept title, slug, thumbnail, category, description, and iframe URL, and save changes to the catalog. 
+R30 | The admin delete action shows a confirmation prompt before removing a game entry. 
+R31 | Thumbnail upload in the admin validates file type and file size, and the admin panel supports adding, renaming, reordering, and removing categories. 
+R32 | The admin panel allows toggling individual games into or out of the Featured row and the Trending row on the homepage.
+R33 | The GA4 site tag fires on every page including all static pages, and all analytics scripts are deferred. 
+R34 | A GA4 'game_start' event fires when the game iframe loads and a GA4 'game_end' event fires when the user leaves the game detail page. 
+R35 | GA4 events 'category_click', 'search_used', and 'favorite_added' each fire on their respective user interactions.
+R36 | Every page has a unique <title> tag and a unique <meta name="description"> tag. 
+R37 | Open Graph tags are present on all game detail and category pages, and canonical tags are present on all parameterised views. | 2 pts
+R38 | sitemap.xml lists all public-facing pages and robots.txt contains a Disallow rule for /admin. 
+ 
+

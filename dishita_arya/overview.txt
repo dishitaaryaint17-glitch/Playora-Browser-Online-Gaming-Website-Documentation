@@ -1,0 +1,17 @@
+Task ID: WD-001
+
+Title: Playora: Browser-Based Gaming Website
+
+Overview:
+
+I am looking to build a modern browser-based gaming website where users can discover and play a curated collection of HTML5 games directly from their web browser without requiring downloads or installations.
+
+The platform should provide a smooth and engaging experience for casual gamers through a visually appealing interface, intuitive navigation, and fast access to gameplay. The website should focus on helping users quickly find games they enjoy through category-based browsing, featured collections, trending titles, and search functionality.
+
+The goal is to create a lightweight but professional gaming website that feels polished and enjoyable to use while remaining manageable in scope for an initial launch. The platform will host approximately 50-100 browser games across multiple categories and should be designed to support future expansion as additional games are added.
+
+The website should include dedicated game pages, embedded game players, category navigation, favorites functionality, recently played games, and a simple administration panel for managing content. Features such as favorites and recently played games may be stored locally in the user's browser to keep the platform lightweight while still providing a personalized experience.
+
+The overall design should be modern, colorful, and gaming-focused, with large game thumbnails, engaging visuals, responsive layouts, and a seamless experience across desktop, tablet, and mobile devices.
+
+I will provide the project branding, logo, game information, game thumbnails, categories, and any required content for the platform.
